@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uyhcmSVUhdpWQ5ktoR51eRacP6P+9P3pFFAt0g/RW1wVf6s48pD0sJ0JBANhRGogmtt5m9MepIuDvtELiDZWpw==",
+  "dgSpecHash": "NrX23GRrSPutXSIi2pTV/wlQROCxRKLdaywPVz7k6tR7mBPV5bYGfDKm95G7o9UVCwtCHItihrregxHyH/COkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\CleanArchitecture\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
+  "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
