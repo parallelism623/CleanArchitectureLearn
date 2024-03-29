@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aa8ZcsG41klRGlicLxhY6YLYgnYoCyf6Di79E2nDrc3Ugel3u9s2vLtJ32ZKZMHFPMHRQXhuy4p6XhRJs/D7fw==",
+  "dgSpecHash": "leJC1pawHHlHCGfunWxyGWlyKIZVU0FOLjB2QUUmha+WoBOkJxKbjmFLJK4c1eaDkAvI2WIGETnPoY7kC052mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\CleanArchitecture\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hieud\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
