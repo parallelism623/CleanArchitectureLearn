@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\abstractions\\message\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\abstractions\\message\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\abstractions\\message\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\abstractions\\message\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\abstractions\\message\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\abstractions\\message\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsrespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsrespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\usecases\\v1\\queries\\product\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\usecases\\v1\\commands\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\usecases\\v1\\commands\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\usecases\\v1\\commands\\product\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\usecases\\v1\\commands\\product\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\abstractions\\message\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\abstractions\\message\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\src\\cleanarchitecture.application\\cleanarchitecture.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C311461D-15BC-4145-94DE-4AB048EC1553}|src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:src\\cleanarchitecture.application\\cleanarchitecture.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46597F5F-E363-437B-870E-CE6DCC7BA7A0}|test\\CleanArchitecture.Architecture.Tests\\CleanArchitecture.Architecture.Tests.csproj|c:\\users\\hieud\\code\\c#\\cleanarchitecture\\cleanarchitecturelearn\\test\\cleanarchitecture.architecture.tests\\architecturetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46597F5F-E363-437B-870E-CE6DCC7BA7A0}|test\\CleanArchitecture.Architecture.Tests\\CleanArchitecture.Architecture.Tests.csproj|solutionrelative:test\\cleanarchitecture.architecture.tests\\architecturetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "ArchitectureTests.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\test\\CleanArchitecture.Architecture.Tests\\ArchitectureTests.cs",
               "RelativeDocumentMoniker": "test\\CleanArchitecture.Architecture.Tests\\ArchitectureTests.cs",
@@ -59,12 +99,11 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T11:31:08.746Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "CleanArchitecture.API.csproj",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
@@ -81,7 +120,131 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\IQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\Abstractions\\Message\\IQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\IQueryHandler.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\Abstractions\\Message\\IQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:16:25.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQueryHandler.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:11:10.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProductsRespone.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsRespone.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsRespone.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsRespone.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsRespone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:10:34.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\IQuery.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\Abstractions\\Message\\IQuery.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\IQuery.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\Abstractions\\Message\\IQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:04.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommandHandler.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:04.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommand.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommand.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommand.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\Abstractions\\Message\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:04.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQuery.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQuery.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\UseCases\\V1\\Queries\\Product\\GetProductsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:04.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:04.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CleanArchitecture.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-31T02:09:04.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommand.cs",
+              "RelativeToolTip": "src\\CleanArchitecture.Application\\UseCases\\V1\\Commands\\Product\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:09:02.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\Shared\\Result.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Domain\\Shared\\Result.cs",
@@ -89,12 +252,11 @@
               "RelativeToolTip": "src\\CleanArchitecture.Domain\\Shared\\Result.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAzwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T16:55:27.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T16:55:27.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\Shared\\Error.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Domain\\Shared\\Error.cs",
@@ -106,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Presentation\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Presentation\\AssemblyReference.cs",
@@ -114,12 +276,11 @@
               "RelativeToolTip": "src\\CleanArchitecture.Presentation\\AssemblyReference.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T11:28:12.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:28:12.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Pesistence\\AssemblyReference.cs",
@@ -131,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Infrastructure\\AssemblyReference.cs",
@@ -143,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.Domain\\AssemblyReference.cs",
@@ -155,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\CleanArchitecture.API\\appsettings.json",
