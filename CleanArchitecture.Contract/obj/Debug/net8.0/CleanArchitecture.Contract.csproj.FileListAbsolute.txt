@@ -1,0 +1,6 @@
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.csproj.AssemblyReference.cache
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.AssemblyInfoInputs.cache
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.AssemblyInfo.cs
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.csproj.CoreCompileInputs.cache
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.sourcelink.json
