@@ -11,12 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
     <Folder Include="Behaviors\" />
     <Folder Include="DependencyInjection\Extensions\" />
     <Folder Include="DependencyInjection\Options\" />
-    <Folder Include="UseCases\V1\Commands\" />
-    <Folder Include="UseCases\V1\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
