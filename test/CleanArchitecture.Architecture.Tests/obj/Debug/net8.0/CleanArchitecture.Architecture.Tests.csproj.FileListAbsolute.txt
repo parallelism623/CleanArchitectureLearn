@@ -98,3 +98,4 @@ C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\test\CleanArchit
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\test\CleanArchitecture.Architecture.Tests\obj\Debug\net8.0\CleanArchitecture.Architecture.Tests.pdb
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\test\CleanArchitecture.Architecture.Tests\obj\Debug\net8.0\CleanArchitecture.Architecture.Tests.genruntimeconfig.cache
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\test\CleanArchitecture.Architecture.Tests\obj\Debug\net8.0\ref\CleanArchitecture.Architecture.Tests.dll
+C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\test\CleanArchitecture.Architecture.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_CleanArchitecture.Architecture.Tests

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nSnh6If9U1FDHCfzW3EUIQfrvgV+VkUmDXsWLyR9paj3tth9zyM6zUS0psPSdXof7xfoh7jMFWuP2b2L4n5GIw==",
+  "dgSpecHash": "IGzg5peusNgu78RSNoAx1J9yRZAogjaUcXiL9ASkYxsxHBBzPkoQJ58eI3aSNmwsnDvaj8HuRG/9Zj42Bw+p6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hieud\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

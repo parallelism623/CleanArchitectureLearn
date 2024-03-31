@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "sMuxgMNhGmOhOM1HMd/MyT5t7ABOdtlwaA/tVF/Q3Yw6svaNpb1LlzFG1WFryUkSINLDtqFhhzOvh2aGyp/6lw==",
+  "dgSpecHash": "0G5AJZM6Ple5BySA9e+EyGPQ0MEtNKg6QDFDyBMX7XC7+qnY+wYY1N7f/FfPJYu0zWpEiEckW9r9V2YilaBnwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hieud\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

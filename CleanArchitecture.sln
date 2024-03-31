@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Pesistenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Architecture.Tests", "test\CleanArchitecture.Architecture.Tests\CleanArchitecture.Architecture.Tests.csproj", "{46597F5F-E363-437B-870E-CE6DCC7BA7A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Contract", "CleanArchitecture.Contract\CleanArchitecture.Contract.csproj", "{37414AA3-8BCE-4AFB-A9A1-4E7F86568619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{46597F5F-E363-437B-870E-CE6DCC7BA7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46597F5F-E363-437B-870E-CE6DCC7BA7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46597F5F-E363-437B-870E-CE6DCC7BA7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37414AA3-8BCE-4AFB-A9A1-4E7F86568619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37414AA3-8BCE-4AFB-A9A1-4E7F86568619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37414AA3-8BCE-4AFB-A9A1-4E7F86568619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37414AA3-8BCE-4AFB-A9A1-4E7F86568619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{69E94471-3071-4C90-878A-712E2813A731} = {4C63E3B4-4BE7-4321-A620-CA228B66DF2B}
 		{526F12FF-EF3C-40DF-870C-F56AA7D4354B} = {4C63E3B4-4BE7-4321-A620-CA228B66DF2B}
 		{46597F5F-E363-437B-870E-CE6DCC7BA7A0} = {F8EEB890-6283-434D-B84D-D50CFCB96BB5}
+		{37414AA3-8BCE-4AFB-A9A1-4E7F86568619} = {4C63E3B4-4BE7-4321-A620-CA228B66DF2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E9A3A55-796F-46FC-B81E-53FF42BD1FB9}
