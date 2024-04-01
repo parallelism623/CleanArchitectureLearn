@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {}
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj",
         "projectName": "CleanArchitecture.Contract",
-        "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj",
-        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,21 +75,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "projectName": "CleanArchitecture.Application",
-        "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
-        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,17 +101,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj": {
-                "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj"
+              "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\CleanArchitecture.Contract\\CleanArchitecture.Contract.csproj"
               },
-              "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -133,6 +143,12 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -151,21 +167,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
-        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,6 +193,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -217,21 +238,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
         "projectName": "CleanArchitecture.Infrastructure",
-        "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,17 +264,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
               },
-              "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj": {
-                "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj"
+              "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj"
               }
             }
           }
@@ -284,21 +310,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
         "projectName": "CleanArchitecture.Pesistence",
-        "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
-        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\CleanArchitecture.Pesistence.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Pesistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -306,14 +336,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitecture\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Downloads\\CleanArchitectureLearn\\src\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -333,6 +364,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -341,7 +378,17 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -370,7 +417,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

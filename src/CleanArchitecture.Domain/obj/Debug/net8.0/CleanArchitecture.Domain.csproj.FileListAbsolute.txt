@@ -10,3 +10,16 @@ C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\src\CleanArchite
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
 C:\Users\hieud\Code\C#\CleanArchitecture\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.deps.json
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.sourcelink.json
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\Administrator\Downloads\CleanArchitectureLearn\src\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll

@@ -1,11 +1,5 @@
-﻿using CleanArchitecture.Application.Abstractions.Message;
-using CleanArchitecture.Domain.Shared;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CleanArchitecture.Contract.Abstractions.Message;
+using CleanArchitecture.Contract.Abstractions.Shared;
 
 namespace CleanArchitecture.Application.UseCases.V1.Commands.Product
 {

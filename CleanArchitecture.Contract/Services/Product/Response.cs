@@ -8,6 +8,6 @@ namespace CleanArchitecture.Contract.Services.Product
 {
     public static class Response
     {
-        public record ProductRespone(Guid id, string Name, decimal Price, string Description);
+        public record ProductResponse(Guid id, string Name, decimal Price, string Description);
     }
 }

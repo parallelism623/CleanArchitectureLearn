@@ -12,7 +12,7 @@ namespace CleanArchitecture.Domain.Entities.Identity
         public string Name { get; set; }
         public string Description { get; set;}
         public string Url { get; set; }
-        public string ParentId { get; set; }
+        public string ParrentId { get; set; }
         public int? SortOrder { get; set; }
         public string CssClass { get; set; }
         public bool? IsActive { get; set; }

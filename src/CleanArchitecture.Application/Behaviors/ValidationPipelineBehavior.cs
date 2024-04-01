@@ -57,3 +57,4 @@ namespace CleanArchitecture.Application.Behaviors
             return (TResult)validationResult;
         }
     }
+}

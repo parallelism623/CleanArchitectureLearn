@@ -1,11 +1,15 @@
-﻿using CleanArchitecture.Application.Abstractions.Message;
-using CleanArchitecture.Domain.Shared;
+﻿using CleanArchitecture.Contract.Abstractions.Message;
+using CleanArchitecture.Contract.Abstractions.Shared;
+using CleanArchitecture.Contract.Services.Product;
+using CleanArchitecture.Domain.Abstractions.Repositories;
 
 namespace CleanArchitecture.Application.UseCases.V1.Queries.Product
 {
-    public class GetProductsQueryHandler : IQueryHandler<GetProductsQuery, GetProductsRespone>
+    public sealed class GetProductsQueryHandler : IQueryHandler<Query.GetProductsQuery, List<Response.ProductResponse>>
     {
-        public Task<Result<GetProductsRespone>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+        private readonly IRepositoryBase<CleanArchitecture.Domain.Entities.Product, Guid> _productRepositoryBase;
+        public GetProductsQueryHandler()
+        public Task<Result<List<Response.ProductResponse>>> Handle(Query.GetProductsQuery request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
