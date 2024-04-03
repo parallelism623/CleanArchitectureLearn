@@ -9,9 +9,10 @@ namespace CleanArchitecture.Domain.Abstractions.Repositories
 {
     public interface IRepositoryBase<TEntity, in Tkey> where TEntity : class
     {
-        TEntity FindById(Tkey id, params Expression<Func<TEntity, object>>[] includeProperties);
-        TEntity FindSingle(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties);
-        IQueryable<TEntity> FindAll(Expression<Func<TEntity, bool>>? predicate, params Expression<Func<TEntity, object>>[] includeProperties);
+        Task<TEntity> FindByIdAsync(Tkey id, CancellationToken cancellationToken, params Expression<Func<TEntity, object>>[] includeProperties);
+        Task<TEntity> FindSingleAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken, params Expression<Func<TEntity, object>>[] includeProperties);
+        IQueryable<TEntity> FindAll(Expression<Func<TEntity, bool>>? predicate = null, params Expression<Func<TEntity, object>>[] includeProperties);
+        IQueryable<TEntity> FindAll(params Expression<Func<TEntity, object>>[] includeProperties);
         void Add(TEntity entity);
         void Update(TEntity entity);
         void Remove(TEntity entity);

@@ -1,5 +1,8 @@
-﻿using CleanArchitecture.Domain.Entities.Identity;
+﻿using CleanArchitecture.Domain.Abstractions;
+using CleanArchitecture.Domain.Abstractions.Repositories;
+using CleanArchitecture.Domain.Entities.Identity;
 using CleanArchitecture.Pesistence.DependencyInjection.Options;
+using CleanArchitecture.Pesistence.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Internal;
@@ -53,6 +56,10 @@ namespace CleanArchitecture.Pesistence.DependencyInjection.Extensions
 
             });
         }
+        public static IServiceCollection AddRepositoryBaseConfiguration(this IServiceCollection services)
+            => services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork))
+                       .AddTransient(typeof(IRepositoryBase<,>), typeof(RepositoryBase<,>));
+
         public static OptionsBuilder<SqlServerRetryOptions> ConfigureSqlServerRetryOptions(this IServiceCollection services, IConfigurationSection section)
             => services.AddOptions<SqlServerRetryOptions>()
                        .Bind(section)

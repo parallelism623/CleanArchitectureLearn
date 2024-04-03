@@ -17,3 +17,16 @@ C:\Users\Administrator\Downloads\CleanArchitectureLearn\CleanArchitecture.Contra
 C:\Users\Administrator\Downloads\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\refint\CleanArchitecture.Contract.dll
 C:\Users\Administrator\Downloads\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.pdb
 C:\Users\Administrator\Downloads\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\ref\CleanArchitecture.Contract.dll
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\bin\Debug\net8.0\CleanArchitecture.Contract.deps.json
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\bin\Debug\net8.0\CleanArchitecture.Contract.dll
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\bin\Debug\net8.0\CleanArchitecture.Contract.pdb
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.csproj.AssemblyReference.cache
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.AssemblyInfoInputs.cache
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.AssemblyInfo.cs
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.csproj.CoreCompileInputs.cache
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.sourcelink.json
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.dll
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\refint\CleanArchitecture.Contract.dll
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\CleanArchitecture.Contract.pdb
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\CleanArchitecture.Contract\obj\Debug\net8.0\ref\CleanArchitecture.Contract.dll

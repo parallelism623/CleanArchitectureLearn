@@ -1,21 +1,30 @@
 [
   {
-    "ContainingType": "CleanArchitecture.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "CleanArchitecture.Presentation.Abstraction.Controllers.V1.ProductController",
+    "Method": "Products",
+    "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CleanArchitecture.API.WeatherForecast, CleanArchitecture.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "CleanArchitecture.Contract.Abstractions.Shared.Result\u00601[[System.Collections.Generic.IEnumerable\u00601[[CleanArchitecture.Contract.Services.Product.Response\u002BProductResponse, CleanArchitecture.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   }
