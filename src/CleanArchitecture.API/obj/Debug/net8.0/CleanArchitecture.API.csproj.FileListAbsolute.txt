@@ -363,3 +363,4 @@ C:\Users\hieud\Code\C#\CleanArchitectureLearn\src\CleanArchitecture.API\obj\Debu
 C:\Users\hieud\Code\C#\CleanArchitectureLearn\src\CleanArchitecture.API\obj\Debug\net8.0\CleanArchitecture.API.pdb
 C:\Users\hieud\Code\C#\CleanArchitectureLearn\src\CleanArchitecture.API\obj\Debug\net8.0\CleanArchitecture.API.genruntimeconfig.cache
 C:\Users\hieud\Code\C#\CleanArchitectureLearn\src\CleanArchitecture.API\obj\Debug\net8.0\ref\CleanArchitecture.API.dll
+C:\Users\hieud\Code\C#\CleanArchitectureLearn\src\CleanArchitecture.API\bin\Debug\net8.0\Serilog.Enrichers.Thread.dll

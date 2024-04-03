@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "55/dBJB7tVE4ZbRmmpjS92x+pXzd33C4Wul0Hz/B6edVO0djSQrM14Fs2w/1MxjN+99qVcMv5fFM2NNagGbwCQ==",
+  "dgSpecHash": "/0eKs1OJ4Ti8VmY/LKnRr+gQK7cyt8fbUdeBwqnt64AuYKy942Qt1O3sOasINVh2a+TDN6DYkT5bthygZuuACg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitectureLearn\\src\\CleanArchitecture.API\\CleanArchitecture.API.csproj",
   "expectedPackageFiles": [
@@ -101,11 +101,12 @@
     "C:\\Users\\hieud\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\serilog.enrichers.thread\\3.1.0\\serilog.enrichers.thread.3.1.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.formatting.compact\\2.0.0\\serilog.formatting.compact.2.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.settings.configuration\\8.0.0\\serilog.settings.configuration.8.0.0.nupkg.sha512",
-    "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

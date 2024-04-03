@@ -4,14 +4,18 @@ using CleanArchitecture.Pesistence.DependencyInjection.Options;
 using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
+Log.Logger = new LoggerConfiguration().ReadFrom
+    .Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Logging
+    .ClearProviders()
+    .AddSerilog();
+
+builder.Host.UseSerilog();
 // Add services to the container.
 builder.Services.AddSwaggerGen();
 
-//Log.Logger = new LoggerConfiguration().ReadFrom
-//                 .Configuration(builder.Configuration)
-//                 .CreateLogger();   
-
-// Add Application layer servicecollectionextensions
 
 builder.Services.AddConfigureMediatR();
 builder.Services.ConfigureSqlServerRetryOptions(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
@@ -45,4 +49,19 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+try
+{
+    await app.RunAsync();
+    Log.Information("Stopped cleanly");
+}
+catch(Exception ex)
+{
+    Log.Fatal(ex, "An unhandled exception occured during bootstrapping");
+    await app.StopAsync();
+}
+finally
+{
+    Log.CloseAndFlush();
+    await app.DisposeAsync();
+}
+

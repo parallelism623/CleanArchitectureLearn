@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qx7qCWKE3yDNUVPdK+yngZ7JrYWo0HguM3s2Ik7zDdYOUYZQ670yeMQBOMHTb+rOtyL7X/Rx9/ryXLDFUVuvGQ==",
+  "dgSpecHash": "59/dV0VkU1UP7nu3MUuQqHGhk6yjaNEqkdrIefKd8Ir6NzTrayAvgxE1G/niU0fI6i39KTLxIpK8AUN1z0fF4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitectureLearn\\test\\CleanArchitecture.Architecture.Tests\\CleanArchitecture.Architecture.Tests.csproj",
   "expectedPackageFiles": [
@@ -118,11 +118,12 @@
     "C:\\Users\\hieud\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\serilog.enrichers.thread\\3.1.0\\serilog.enrichers.thread.3.1.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.formatting.compact\\2.0.0\\serilog.formatting.compact.2.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.settings.configuration\\8.0.0\\serilog.settings.configuration.8.0.0.nupkg.sha512",
-    "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
