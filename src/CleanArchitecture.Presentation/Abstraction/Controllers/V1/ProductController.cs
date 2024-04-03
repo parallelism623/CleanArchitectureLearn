@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Contract.Abstractions.Shared;
+﻿using Asp.Versioning;
+using CleanArchitecture.Contract.Abstractions.Shared;
 using CleanArchitecture.Contract.Services.Product;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -6,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecture.Presentation.Abstraction.Controllers.V1
 {
+
+    [ApiVersion(1)]
     public class ProductController : ApiController
     {
         public ProductController(ISender sender) : base(sender)

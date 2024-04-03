@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace CleanArchitecture.Presentation.Abstraction
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public abstract class ApiController : ControllerBase
     {
         protected readonly ISender Sender;

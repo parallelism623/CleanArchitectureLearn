@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Application.UseCases.V1.Queries.Product
 {
+
     public sealed class GetProductsQueryHandler : IQueryHandler<Query.GetProductsQuery, List<Response.ProductResponse>>
     {
         private readonly IRepositoryBase<CleanArchitecture.Domain.Entities.Product, Guid> _productRepositoryBase;

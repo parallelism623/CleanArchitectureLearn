@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "59/dV0VkU1UP7nu3MUuQqHGhk6yjaNEqkdrIefKd8Ir6NzTrayAvgxE1G/niU0fI6i39KTLxIpK8AUN1z0fF4A==",
+  "dgSpecHash": "BXMdJj3dmSoC4u1Yi0d5OfoiZRxwe/Yf4Pm7YkOd9EtczO+d0WMz20+OFLoBqeOhdF6vDwaQEMexfIThyBHFjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hieud\\Code\\C#\\CleanArchitectureLearn\\test\\CleanArchitecture.Architecture.Tests\\CleanArchitecture.Architecture.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hieud\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\hieud\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hieud\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

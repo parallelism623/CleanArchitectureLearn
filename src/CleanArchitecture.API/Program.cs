@@ -1,3 +1,5 @@
+using Asp.Versioning;
+using CleanArchitecture.API.Middleware;
 using CleanArchitecture.Application.DependencyInjection.Extensions;
 using CleanArchitecture.Pesistence.DependencyInjection.Extensions;
 using CleanArchitecture.Pesistence.DependencyInjection.Options;
@@ -30,10 +32,21 @@ builder
     .AddControllers()
     .AddApplicationPart(CleanArchitecture.Presentation.AssemblyReference.Assembly);
 
-
-
-
-
+// API versioning
+builder.Services.AddApiVersioning(o =>
+{
+    o.AssumeDefaultVersionWhenUnspecified = true;
+    o.DefaultApiVersion = new ApiVersion(1, 0);
+    o.ReportApiVersions = true;
+    o.ApiVersionReader = ApiVersionReader.Combine(
+        new QueryStringApiVersionReader("api-version"),
+        new HeaderApiVersionReader("X-Version"),
+        new MediaTypeApiVersionReader("ver"));
+}).AddApiExplorer(o =>
+{
+    o.SubstitutionFormat = "v'VVV'";
+    o.SubstituteApiVersionInUrl = true;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,7 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -65,3 +78,4 @@ finally
     await app.DisposeAsync();
 }
 
+public partial class Program { }
