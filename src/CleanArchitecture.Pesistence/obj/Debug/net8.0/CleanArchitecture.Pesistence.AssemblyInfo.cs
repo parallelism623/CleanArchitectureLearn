@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchitecture.Pesistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81a0f0241563b3b304a538336c6bd505e1363c75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae7bfe54730672fd318091843e82f03ec45e2d45")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchitecture.Pesistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchitecture.Pesistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

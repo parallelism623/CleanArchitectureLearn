@@ -43,5 +43,60 @@
         "StatusCode": 404
       }
     ]
+  },
+  {
+    "ContainingType": "CleanArchitecture.Presentation.Abstraction.Controllers.V1.ProductController",
+    "Method": "Products",
+    "RelativePath": "api/v{version}/Product/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateProduct",
+        "Type": "CleanArchitecture.Contract.Services.Product.Command\u002BUpdateProductCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CleanArchitecture.Contract.Abstractions.Shared.Result",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain; ver=1.0",
+          "application/json; ver=1.0",
+          "text/json; ver=1.0"
+        ],
+        "StatusCode": 404
+      }
+    ]
   }
 ]

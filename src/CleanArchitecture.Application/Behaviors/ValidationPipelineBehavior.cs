@@ -1,5 +1,6 @@
 ﻿using CleanArchitecture.Contract.Abstractions.Shared;
 using FluentValidation;
+using FluentValidation.Results;
 using MediatR;
 namespace CleanArchitecture.Application.Behaviors
 {
@@ -22,39 +23,24 @@ namespace CleanArchitecture.Application.Behaviors
                 return await next();
             }
 
-            Error[] errors = _validators
+            List<ValidationFailure> errors = _validators
                 .Select(validator => validator.Validate(request))
                 .SelectMany(validationResult => validationResult.Errors)
                 .Where(validationFailure => validationFailure is not null)
-                .Select(failure => new Error(
+                .Select(failure => new ValidationFailure(
                     failure.PropertyName,
                     failure.ErrorMessage))
                 .Distinct()
-                .ToArray();
+                .ToList();
 
             if (errors.Any())
             {
-                return CreateValidationResult<TResponse>(errors);
+                throw new ValidationException(errors);
             }
 
             return await next();
         }
 
-        private static TResult CreateValidationResult<TResult>(Error[] errors)
-            where TResult : Result
-        {
-            if (typeof(TResult) == typeof(Result))
-            {
-                return (ValidationResult.WithErrors(errors) as TResult)!;
-            }
 
-            object validationResult = typeof(ValidationResult<>)
-                .GetGenericTypeDefinition()
-                .MakeGenericType(typeof(TResult).GenericTypeArguments[0])
-                .GetMethod(nameof(ValidationResult.WithErrors))!
-                .Invoke(null, new object?[] { errors })!;
-
-            return (TResult)validationResult;
-        }
     }
 }

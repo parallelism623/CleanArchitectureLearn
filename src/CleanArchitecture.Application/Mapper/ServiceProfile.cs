@@ -13,7 +13,8 @@ namespace CleanArchitecture.Application.Mapper
     { 
         public ServiceProfile()
         {
-            CreateMap<Product, Response.ProductResponse>().ReverseMap();
+            CreateMap<Product, Response.ProductResponse>();
+            CreateMap<CleanArchitecture.Contract.Services.Product.Command.UpdateProductCommand, Product>();
         }
     }
 }

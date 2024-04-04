@@ -11,10 +11,11 @@ namespace CleanArchitecture.Application.DependencyInjection.Extensions
     {
         public static IServiceCollection AddConfigureMediatR(this IServiceCollection services)
             => services.AddMediatR(cgf => cgf.RegisterServicesFromAssembly(AssemblyReference.Assembly))
-                       .AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>))
+                       .AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>))
                        .AddValidatorsFromAssembly(Contract.AssemblyReference.Assembly, includeInternalTypes: true);
         public static IServiceCollection AddConfigurationAutoMapper(this IServiceCollection services)
             => services.AddAutoMapper(typeof(ServiceProfile));
+      
     }
     
 }

@@ -1,5 +1,9 @@
 ﻿
 using CleanArchitecture.Domain.Exceptions;
+using FluentValidation;
+using FluentValidation.Results;
+using Microsoft.AspNetCore.Http;
+using System.Text.Json;
 
 namespace CleanArchitecture.API.Middleware
 {
@@ -33,6 +37,10 @@ namespace CleanArchitecture.API.Middleware
                 detail = exception.Message,
                 errors = GetErrors(exception),
             };
+            context.Response.Headers.ContentType = "application/json";
+            context.Response.StatusCode = statusCode;
+
+            await context.Response.WriteAsync(JsonSerializer.Serialize(response));
         }
         public static int GetStatusCode(Exception exception) =>
         exception switch
@@ -50,11 +58,11 @@ namespace CleanArchitecture.API.Middleware
             DomainException applicationException => applicationException.Title,
             _ => "Server Error"
         };
-        public static IReadOnlyCollection<Application.Exceptions.ValidationError> GetErrors(Exception exception)
+        public static IEnumerable<ValidationFailure> GetErrors(Exception exception)
         {
-            IReadOnlyCollection<Application.Exceptions.ValidationError> errors = null;
+            IEnumerable<ValidationFailure> errors = null;
 
-            if (exception is Application.Exceptions.ValidationException validationException)
+            if (exception is ValidationException validationException)
             {
                 errors = validationException.Errors;
             }

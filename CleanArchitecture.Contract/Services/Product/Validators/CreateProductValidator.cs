@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecture.Contract.Services.Product.Validators
 {
-    public class CreateProductValidator : AbstractValidator<Command.CreateProduct>
+    public class CreateProductValidator : AbstractValidator<Command.CreateProductCommand>
     {
         public CreateProductValidator()
         {

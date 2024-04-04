@@ -18,7 +18,7 @@ builder.Host.UseSerilog();
 // Add services to the container.
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddTransient(typeof(ExceptionHandlingMiddleware));
 builder.Services.AddConfigureMediatR();
 builder.Services.ConfigureSqlServerRetryOptions(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
 builder.Services.AddSqlConfiguration();

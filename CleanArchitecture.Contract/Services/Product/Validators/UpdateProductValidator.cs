@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecture.Contract.Services.Product.Validators
 {
-    public class UpdateProductValidator : AbstractValidator<Command.UpdateProduct>
+    public class UpdateProductValidator : AbstractValidator<Command.UpdateProductCommand>
     {
         public UpdateProductValidator()
         {
             RuleFor(x => x.Price).GreaterThan(0);
-            RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Name).NotEmpty().WithMessage("Required");
             RuleFor(x => x.Description).NotEmpty();
         }
     }
