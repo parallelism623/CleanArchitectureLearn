@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Contract.Abstractions.Message;
+using CleanArchitecture.Contract.Enumerations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace CleanArchitecture.Contract.Services.Product
 {
     public static class Query
     {
-        public record GetProductsQuery() : IQuery<List<ProductResponse>>;
+        public record GetProductsQuery(string? SearchTerm, string? SortColumn, SortOrder? SortOrder) : IQuery<List<ProductResponse>>;
         public record GetProductById(Guid id) : IQuery<ProductResponse>;
     }
 }

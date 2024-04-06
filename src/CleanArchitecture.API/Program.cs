@@ -19,7 +19,6 @@ builder.Host.UseSerilog();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient(typeof(ExceptionHandlingMiddleware));
-builder.Services.AddConfigureMediatR();
 builder.Services.ConfigureSqlServerRetryOptions(builder.Configuration.GetSection(nameof(SqlServerRetryOptions)));
 builder.Services.AddSqlConfiguration();
 builder.Services.AddConfigurationAutoMapper();

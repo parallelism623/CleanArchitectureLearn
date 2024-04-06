@@ -1,5 +1,4 @@
-﻿
-using CleanArchitecture.Domain.Exceptions;
+﻿using CleanArchitecture.Domain.Exceptions;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;

@@ -51,12 +51,12 @@ namespace CleanArchitecture.Pesistence.Repositories
         }
         public async Task<TEntity> FindByIdAsync(TKey id, CancellationToken cancellationToken = default, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            return await FindAll(includeProperties).SingleOrDefaultAsync(x => x.Id.Equals(id), cancellationToken);
+            return await FindAll(includeProperties).AsTracking().SingleOrDefaultAsync(x => x.Id.Equals(id), cancellationToken);
         }
 
         public async Task<TEntity> FindSingleAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            return await FindAll(includeProperties).SingleOrDefaultAsync(predicate, cancellationToken);
+            return await FindAll(includeProperties).AsTracking().SingleOrDefaultAsync(predicate, cancellationToken);
         }
 
         public void Remove(TEntity entity)
